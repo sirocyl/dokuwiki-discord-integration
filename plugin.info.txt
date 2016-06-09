@@ -1,7 +1,7 @@
-base   slackhq
-author Eevol 
+base   slacknotifier
+author Eevol
 email  thierry@eevol.lu
-date   2015-03-12
-name   Slack Integration plugin
-desc   Notify a Slack channel on page saves
+date   2016-06-09
+name   Slack Notifier
+desc   Notify via Slack when articles are updated
 url    http://www.github.com/littleiffel/dokuwiki-slack-integration/

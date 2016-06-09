@@ -15,3 +15,7 @@ $ git clone https://github.com/mallchin/dokuwiki-slack-notifier.git /var/lib/dok
 1. Create an Incoming Webhook on slack
 
 2. Enter the webhook into the slackhq configuration section in DokuWiki's Configuration Settings
+
+## Example
+
+![Example notification](https://github.com/mallchin/dokuwiki-slack-notifier/raw/master/example.png)
