@@ -1,6 +1,6 @@
 <?php
 /**
- * Credentials for the HipChat plugin
+ * Default config options
  *
  * @author Jeremy Ebler <jebler@gmail.com>
  */

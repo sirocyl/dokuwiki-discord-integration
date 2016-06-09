@@ -1,33 +1,17 @@
-# DokuWiki-Slack-Integration
+# DokuWiki Slack Notifier
 
 A DokuWiki plugin that notifies a Slack channel room of wiki edits.
 
-Setup
------
+## Install
 
-1. Clone repository into your DokuWiku plugins folder, making the target folder name 'dokuwiki-slack-integration'
-
-```
-$ git clone https://github.com/littleiffel/dokuwiki-slack-integration.git dokuwiki-slack-integration
-```
-
-2. To fetch the required dependencies, run:
+Clone the repository into your DokuWiku plugins folder:
 
 ```
-$ composer install
+$ git clone https://github.com/mallchin/dokuwiki-slack-notifier.git /var/lib/dokuwiki/lib/plugins/slackhq
 ```
 
-3. In your DokuWiki Configuration Settings, enter an API token, channel name, and the name you want the notifications to appear from in Slack.
+## Configure
 
+1. Create an Incoming Webhook on slack
 
-4. Upload via FTP to /lib/plugins/slackhq
-
-5. Create an INCOMING WEBHOOK on Slack and under COnfigurations in Doku Wiki paste the webhook URL in field for SlackHQ Webhook. Set Icon (EMOJI) and channel, name..etc.
-6. A Post to Slack with link is posted to your slack channel when you save a page.
-
-
-
-Requirements
-------------
-
-* DokuWiki
+2. Enter the webhook into the slackhq configuration section in DokuWiki's Configuration Settings

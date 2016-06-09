@@ -1,6 +1,6 @@
 <?php
 /**
- * Credentials for the HipChat plugin
+ * Metadata
  *
  * @author Brendon Rapp <brendon@jaguardesignstudio.com>
  */

@@ -22,11 +22,11 @@ require 'vendor/autoload.php';
 
 class action_plugin_slackhq extends DokuWiki_Action_Plugin {
 
-    function register(&$controller) {
+    function register(Doku_Event_Handler $controller) {
        $controller->register_hook('ACTION_ACT_PREPROCESS', 'BEFORE', $this, 'handle_action_act_preprocess');
     }
 
-    function handle_action_act_preprocess(&$event, $param) {
+    function handle_action_act_preprocess(Doku_Event $event, $param) {
         global $lang;
         if (isset($event->data['save'])) {
             //if ($event->data['save'] == $lang['btn_save']) {

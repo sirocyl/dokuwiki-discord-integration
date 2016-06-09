@@ -1,5 +1,0 @@
-{
-    "require": {
-        "polem/slack-notifier": "0.2.1"
-    }
-}
