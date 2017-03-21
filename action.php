@@ -45,7 +45,7 @@ class action_plugin_slacknotifier extends DokuWiki_Action_Plugin {
 		}
 
 		// title
-		$fullname = $INFO['userinfo']['name'];
+		$fullname = $INFO['editor'];
 		$page     = $INFO['namespace'] . $INFO['id'];
 		$title    = "{$fullname} updated page <{$this->urlize()}|{$INFO['id']}>";
 
